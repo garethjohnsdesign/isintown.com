@@ -15,7 +15,8 @@ defaults:
   values:
     permalink: "/journal/:title/"
 url: http://isintown.com
-description: Is in Town is a bi-annual magazine featuring the most interesting new faces. Rhe girls are collaborators and their stories make the pictures.
+description: Is in Town is a bi-annual magazine featuring the most interesting new
+  faces. Rhe girls are collaborators and their stories make the pictures.
 buy: https://www.paypal.com/
 permalink: pretty
 exclude:
@@ -43,7 +44,7 @@ colophon: http://garethjohnsdesign.com
 company: Is in Town
 email: info@isintown.com
 google_site_verification: 
-analytics:
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
