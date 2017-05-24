@@ -19,6 +19,7 @@
 
 body {  
   cursor: default;
+  width: 1016px;
 }
 
 body {
@@ -114,18 +115,15 @@ h2 {
 
 
 .container {
-  transition: $primary-transition;
-  height: 100vh;
-  @include breakpoint(small) {
-    padding: 2rem 2rem;
-  }
-  @include breakpoint(medium) {
-    padding: 2rem 2rem;
-  }
-  @include breakpoint(large) {
-    padding: 4rem 4rem;
-  }
-  @include breakpoint(xlarge) {
-    padding: 4.5rem 4.5rem;
-  }
+  padding: 64px 32px;
+}
+
+.left {
+  width: 150px;
+  float: left;
+}
+
+.right {
+  width: 800px;
+  float: left;
 }

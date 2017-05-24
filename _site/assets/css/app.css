@@ -2279,7 +2279,8 @@ Example showing how to change the color/size of the icons:
       font-size: 1.5rem; } }
 
 body {
-  cursor: default; }
+  cursor: default;
+  width: 1016px; }
 
 body {
   opacity: 1;
@@ -2329,15 +2330,12 @@ h2 {
   padding-bottom: 3rem; }
 
 .container {
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-  height: 100vh;
-  padding: 2rem 2rem; }
-  @media print, screen and (min-width: 40em) {
-    .container {
-      padding: 2rem 2rem; } }
-  @media print, screen and (min-width: 64em) {
-    .container {
-      padding: 4rem 4rem; } }
-  @media screen and (min-width: 75em) {
-    .container {
-      padding: 4.5rem 4.5rem; } }
+  padding: 64px 32px; }
+
+.left {
+  width: 150px;
+  float: left; }
+
+.right {
+  width: 800px;
+  float: left; }
