@@ -19,8 +19,8 @@
   background-color: #F6F6F3; }
 
 @font-face {
-  font-family: 'Verlag-Bold';
-  src: url("../fonts/Verlag-Bold.woff2") format("woff2"), url("../fonts/Verlag-Bold.woff") format("woff");
+  font-family: 'Verlag-Light';
+  src: url("../fonts/Verlag-Light.woff2") format("woff2"), url("../fonts/Verlag-Light.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -932,7 +932,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Verlag-Bold", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Verlag-Light", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1579,7 +1579,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Verlag-Bold", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Verlag-Light", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;

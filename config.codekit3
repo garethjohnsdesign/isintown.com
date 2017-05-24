@@ -123,16 +123,6 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/_site\/assets\/css\/app.css.map": {
 		"ft": 8192,
 		"oA": 2,
@@ -245,6 +235,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/fonts\/Verlag-Bold.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/Verlag-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/Verlag-Light.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/Verlag-Light.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/Verlag-Light.woff2",
 		"oF": 0
 		},
 	"\/_site\/assets\/icons\/symbol-defs.svg": {
@@ -499,6 +501,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Verlag-Bold.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Verlag-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Verlag-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Verlag-Light.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Verlag-Light.woff2",
 		"oF": 0
 		},
 	"\/assets\/icons\/symbol-defs.svg": {
