@@ -1,6 +1,9 @@
 ---
 title: Is in Town
-image: "/uploads/layout.jpg"
+image: "/assets/img/og-image.png"
+issue-number: 4
+issue-image: "/uploads/layout.jpg"
+issue-buy: https://www.antennebooks.com/
 layout: index
 ---
 
