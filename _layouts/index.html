@@ -6,14 +6,14 @@ image: "/uploads/layout.jpg"
 <div class="container">
 	<div class="left lowercase">
     <p>Is in Town Magazine</p>
-    <p>Issue 4</p>
+    <p>Issue {{ page.issue-number }}</p>
     <p>£8</p>
-    <a href="{{ site.buy }}" target="_blank"><p>Buy</p></a>
+    <a href="{{ page.issue-buy }}" target="_blank"><p>Buy</p></a>
     <a href="mailto:{{ site.email }}"><p>Contact</p></a>
 	</div>
 	
 		<div class="right">
-    <img src="{{page.image}}">
+    <img src="{{page.issue-image}}">
 	  </div>
 	
 </div>
