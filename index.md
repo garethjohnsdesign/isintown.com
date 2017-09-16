@@ -9,4 +9,3 @@ issue-buy: 'http://isintown.bigcartel.com/
 layout: index
 ---
 
-Test
