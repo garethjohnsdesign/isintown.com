@@ -1,79 +1,18 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Mixins
-//   3. Typography
-//   4. Page
-//   5. Navigation
-//   6. Index
-//   7. Excerpt
-//   8. Projects
-//   9. Project
-//   10. Profile
-//   11. Services
-//   12. Contact
-//   13. Footer
+//   1. Mixins
+//   2. Global
+//   3. Animations
+//   4. Color
+//   5. Typography
+//   6. Layout
 
-// 1. Global
+
+// 1. Mixins
 // ---------
-
-body {  
-  cursor: default;
-  width: 1016px;
-}
-
-body {
-  opacity: 1;
-  transition: $primary-transition;
-  height: 100%;
-}
-
-body.fade-out {
-  opacity: 0;
-}
-
-svg {
-  max-width: 100%;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-::selection {
-  background: $color--black;
-  color: $color--white;
-}
-
-:focus {
-  outline: 0;
-}
-
-[data-sticky] {
-  width: 100%;
-}
-
-a {
-  transition: $primary-transition;
-}
-
-a:hover {
-  color: $color--alluminium;
-}
-
-// 2. Mixins
-// ---------
-
-
-@mixin padding {
-  padding-bottom: 3rem;
-}
 
 @mixin links ($link, $hover) {
   a {
-//     transition: $primary-transition;
     color: $link;
     &:hover {
       color: $hover;   
@@ -81,50 +20,154 @@ a:hover {
   }
 }
 
-@mixin opacity($opacity) {
-  opacity: $opacity;
-  $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie);
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
 }
 
-// 3. Typography
+// 2. Global
+// ---------
+
+a {
+  transition: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+a:focus {
+color: $white;
+}
+
+body {
+  cursor: default;
+  font-kerning: normal;
+  margin: 0
+}
+
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  background: $primary-color;
+  color: $black;
+}
+
+:focus {
+  outline: 0;
+}
+
+// 3. Animations
 // -------------
+
+.swup-transition-fade-up {
+  transition: 0.5s;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html.is-animating .swup-transition-fade-up {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.swup-transition-fade {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-fade {
+  opacity: 0;
+}
+
+.swup-transition-color {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-color {
+  opacity: 0;
+}
+
+// 4. Color
+// --------
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+// 5. Typography
+// -------------
+
+.underline {
+  border-bottom: 1px solid $white;
+}
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
 }
 
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-h1 {
-  @include padding;
+p a {
+  border-bottom: 1px solid $black;
 }
 
-h2 {
-  @include padding;
+.sans-light {
+  font-family: $sans-light;
 }
 
-// 4. Index
-// ------
-
-
-.container {
-  padding: 64px 32px;
+.sans-regular {
+  font-family: $sans-regular;
 }
 
-.left {
-  width: 150px;
-  float: left;
+.sans-bold {
+  font-family: $sans-bold;
 }
 
-.right {
-  width: 800px;
-  padding: 0.5rem;
-  float: left;
+// 6. Layout
+// ---------
+
+main {
+  @include breakpoint(small only) {
+    @include padding(1,1,1,1);
+  }
+}
+
+
+.button {
+border: 1px solid $white;
+}
+
+.button:hover {
+color: get-color(secondary);
+}
+
+.menu .menu-text {
+font-weight: normal;
+}
+
+.video__element {
+background-color: $black;
+padding: 0.5rem;
 }
