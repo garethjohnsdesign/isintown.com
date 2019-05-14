@@ -305,20 +305,20 @@
 		"oAP": "/assets/fonts/beausite-text-light.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/Verlag-Light.woff": {
+	"/assets/fonts/verlag-light.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Verlag-Light.woff",
+		"oAP": "/assets/fonts/verlag-light.woff",
 		"oF": 0
 		},
-	"/assets/fonts/Verlag-Light.woff2": {
+	"/assets/fonts/verlag-light.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Verlag-Light.woff2",
+		"oAP": "/assets/fonts/verlag-light.woff2",
 		"oF": 0
 		},
 	"/assets/icons/symbol-defs.svg": {
