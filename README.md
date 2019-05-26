@@ -1,7 +1,7 @@
-# Is in Town
+# No Names
 
-Website for Is in Town. Please go to [www.isintown.com](http://isintown.com) in case you want to take a look at the website.
+Website for No Names. Please go to [https://www.nonames.co.uk](https://www.nonames.co.uk) in case you want to take a look at the website.
 
 * * *
 
-Copyright (c) 2017 Gareth Johns Design + Development – info@garethjohnsdesign.com
+Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com

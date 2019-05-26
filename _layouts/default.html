@@ -3,37 +3,56 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="no-js">
 
 <!-- Head -->
-{% include head.html %}
+{% include site/head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}}">
-  
-{% if page.url == "/" %}
-<script>document.body.className += ' fade-out';</script>
-{% endif %}
+<body class="{{page.layout | slugify}} padding-1" data-aos="fade-in" data-aos-delay="100" id="main">
 
+<div class="grid-x grid-padding-x grid-padding-y">
 
-{{ content }}
+<!-- Left -->
+  <div class="small-12 medium-2 large-1 cell">
 
-<!-- Scripts -->
-{% include scripts.html %}
-<!-- End Scripts -->
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 cell text-lowercase">
+    
+        <div class="padding-bottom-1">{{site.title}}</div>
+    
+        <ul class="horizontal medium-vertical menu">
+          <li class="menu-text">Issue {{ page.issue-number }}</li>
+          <li class="menu-text">£8</li>
+          <li><a href="{{ page.issue-buy }}" target="_blank">Buy</a></li>
+          <li><a href="mailto:{{site.email}}">Contact</a></li>
+        </ul>
+    
+      </div>
+    </div>
 
-<!-- Google Analytics -->
-{% if site.analytics %}
-{% include analytics.html %}
-{% endif %}
-<!-- End Google Analytics -->
+  </div>
+<!-- End Left -->
+
+<!-- Right -->
+  <div class="auto cell">
+    <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 large-up-4">
+
+      {% assign videos = page.videos %}
+      {% for video in videos %}
+      <div class="cell">
+          <video class="video__element" width="100%" autoplay loop muted>
+          <source src="{{video.video}}" type="video/mp4">
+          </video>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+<!-- End Right -->
+
+</div>
 
 </body>
 
 </html>
-
-
-
-
-
-

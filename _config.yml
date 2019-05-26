@@ -8,20 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/journal/:title/"
-url: http://isintown.com
-description: Is in Town is a bi-annual magazine featuring the most interesting new
-  faces. The girls are collaborators and their stories make the pictures.
+url: https://www.isintown.com
+description: Is in Town is a bi-annual magazine featuring the most interesting new faces. The girls are collaborators and their stories make the pictures.
 permalink: pretty
 exclude:
-- Gemfile
-- Gemfile.lock
 - bower.json
+- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
@@ -30,7 +22,8 @@ exclude:
 - node_modules
 - ".gitignore"
 - bower_components
-gems:
+- assets/scss
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
@@ -39,20 +32,13 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-colophon: http://garethjohnsdesign.com
-company: Is in Town
 email: info@isintown.com
-google_site_verification: HusctmaQQYq_5gGRYjTNMi_T4EJJ2uG_jjqFMAh2h-c
+subscribe: 
 analytics: UA-99920545-1
 logo: "/assets/img/logo.svg"
 per_page: 12
-date_format: "%d %B %Y"
+date_format: "%b %d, %Y"
 future: true
-social:
-  facebook: https://www.facebook.com/
-  instagram: https://www.instagram.com/
-  twitter: https://www.twitter.com/
-  soundcloud: https://soundcloud.com/
 compress_html:
   comments:
   - "<!-- "
