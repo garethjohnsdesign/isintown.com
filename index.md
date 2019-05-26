@@ -6,6 +6,7 @@ issue-image: "/uploads/layout3b.jpg"
 issue-buy: http://isintown.bigcartel.com/
 videos:
 - video: https://storage.googleapis.com/is-in-town/ambar-cristal.mp4
+  image: ambar-cristal.jpg
 - video: https://storage.googleapis.com/is-in-town/annibelis-baez.mp4
 - video: https://storage.googleapis.com/is-in-town/chai-maximus.mp4
 - video: https://storage.googleapis.com/is-in-town/kukua-williams.mp4
