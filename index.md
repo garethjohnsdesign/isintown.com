@@ -1,7 +1,7 @@
 ---
 title: Is in Town
 image: "/assets/img/og-image.png"
-issue-number: 6
+issue-number: 7
 issue-image: "/uploads/layout3b.jpg"
 issue-buy: http://isintown.bigcartel.com/
 videos:
