@@ -609,14 +609,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/Gemfile": {
 		"cB": 0,
 		"ft": 8192,
@@ -659,6 +651,67 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/node_modules/../node_modules/aos/dist/aos.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/../node_modules/aos/dist/min/aos-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/../node_modules/foundation-sites/dist/js/foundation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/../node_modules/foundation-sites/dist/js/min/foundation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/../node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/../node_modules/jquery/dist/min/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/../node_modules/motion-ui/dist/motion-ui.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/../node_modules/motion-ui/dist/min/motion-ui-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/../node_modules/what-input/dist/what-input.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/../node_modules/what-input/dist/min/what-input-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -732,6 +785,22 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/yarn-error.log": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/yarn-error.log",
+		"oF": 0
+		},
+	"/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/yarn.lock",
+		"oF": 0
 		}
 	},
 "hooks": [
